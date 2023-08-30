@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: InterviewQuestion
+  m_EditorClassIdentifier: 
+  categoryName: 'interview '
+  questions:
+  - questionInfo: "Jak si\u0119 pan/pani ma dzi\u015B? "
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "\u015Awietnie, dzi\u0119kuj\u0119 za pytanie. "
+    - "Jest w porz\u0105dku, dzi\u0119kuj\u0119."
+    - "Troch\u0119 zm\u0119czony, ale gotowy do rozmowy. "
+    - 'Dlaczego pytasz? '
+    correctAns: "\u015Awietnie, dzi\u0119kuj\u0119 za pytanie."
+  - questionInfo: "Czy mo\u017Cemy przyst\u0105pi\u0107 do negocjacji od razu? "
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "Oczywi\u015Bcie, jestem gotowy. "
+    - "Wola\u0142bym najpierw om\xF3wi\u0107 kilka szczeg\xF3\u0142\xF3w. "
+    - "Daj mi chwil\u0119 na przygotowanie. "
+    - "Sk\u0105d taka niecierpliwo\u015B\u0107? "
+    correctAns: "Oczywi\u015Bcie, jestem gotowy. "
+  - questionInfo: "Jakie s\u0105 Pa\u0144stwa oczekiwania w kwestii ceny?"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "Chcemy uzyska\u0107 najlepsz\u0105 mo\u017Cliw\u0105 ofert\u0119."
+    - "Mamy pewien bud\u017Cet, kt\xF3ry chcieliby\u015Bmy przestrzega\u0107."
+    - "Oczekujemy konkurencyjnej ceny w por\xF3wnaniu z innymi dostawcami."
+    - 'Dlaczego pytasz? '
+    correctAns: "Mamy pewien bud\u017Cet, kt\xF3ry chcieliby\u015Bmy przestrzega\u0107."
+  - questionInfo: "Czy s\u0105 Pa\u0144stwo elastyczni w kwestii warunk\xF3w p\u0142atno\u015Bci? "
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "Tak, mo\u017Cemy rozwa\u017Cy\u0107 r\xF3\u017Cne opcje. "
+    - "Wola\u0142bym przedp\u0142at\u0119 w 100%. "
+    - "Mo\u017Cemy si\u0119 zgodzi\u0107 na p\u0142atno\u015B\u0107 w ratach przy
+      pewnych warunkach."
+    - 'Dlaczego? '
+    correctAns: "Mo\u017Cemy si\u0119 zgodzi\u0107 na p\u0142atno\u015B\u0107 w ratach
+      przy pewnych warunkach."
+  - questionInfo: "Jakie wsparcie posprzeda\u017Cowe oferujecie? "
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "Zapewniamy wsparcie przez 2 lata, ale za dodatkow\u0105 op\u0142at\u0105. "
+    - 'Oferujemy standardowe wsparcie przez rok. '
+    - "Nie zapewniamy wsparcia posprzeda\u017Cowego. "
+    - "Jaki rodzaj wsparcia masz na my\u015Bli? "
+    correctAns: "Zapewniamy wsparcie przez 2 lata, ale za dodatkow\u0105 op\u0142at\u0105. "
+  - questionInfo: "Czy jest mo\u017Cliwo\u015B\u0107 przed\u0142u\u017Cenia gwarancji? "
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "Tak, oferujemy dodatkowy rok gwarancji za niewielk\u0105 op\u0142at\u0105. "
+    - "Niestety, nasze warunki gwarancji s\u0105 niezmienne. "
+    - "Dlaczego chcia\u0142by\u015B przed\u0142u\u017Cy\u0107 gwarancj\u0119? "
+    - "Mo\u017Cemy to om\xF3wi\u0107. Na jak d\u0142ugi chcia\u0142by Pan przed\u0142u\u017Cy\u0107
+      gwarancj\u0119? "
+    correctAns: "Mo\u017Cemy to om\xF3wi\u0107. Na jak d\u0142ugi chcia\u0142by Pan
+      przed\u0142u\u017Cy\u0107 gwarancj\u0119? "
+  - questionInfo: "Czy mogliby\u015Bmy dosta\u0107 pr\xF3bk\u0119 przed finalnym
+      zam\xF3wieniem? "
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "Oczywi\u015Bcie, mo\u017Cemy dostarczy\u0107 pr\xF3bk\u0119 bez dodatkowych
+      op\u0142at."
+    - "Mog\u0119 wys\u0142a\u0107 pr\xF3bk\u0119, ale b\u0119dzie wi\u0105za\u0142o
+      si\u0119 to z niewielk\u0105 op\u0142at\u0105. "
+    - "Przykro mi, oferujemy pr\xF3bki tylko dla zdecydowanych klient\xF3w. "
+    - "Dlaczego chcia\u0142by\u015B pr\xF3bk\u0119? "
+    correctAns: "Oczywi\u015Bcie, mo\u017Cemy dostarczy\u0107 pr\xF3bk\u0119 bez
+      dodatkowych op\u0142at."
+  - questionInfo: "Jakie s\u0105 terminy realizacji zam\xF3wienia?"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "Ci\u0119\u017Cko powiedzie\u0107."
+    - "Je\u015Bli potrzebujesz szybciej, mo\u017Cemy to zrobi\u0107 w ci\u0105gu
+      2 tygodni za dodatkow\u0105 op\u0142at\u0105. "
+    - "W zale\u017Cno\u015Bci od wielko\u015Bci zam\xF3wienia, mo\u017Ce to trwa\u0107
+      od 2 do 6 tygodni."
+    - 'Dlaczego pytasz o terminy? '
+    correctAns: "W zale\u017Cno\u015Bci od wielko\u015Bci zam\xF3wienia, mo\u017Ce
+      to trwa\u0107 od 2 do 6 tygodni."
+  - questionInfo: "Czy oferuj\u0105 Pa\u0144stwo rabaty dla sta\u0142ych klient\xF3w?"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "Tak, dla naszych sta\u0142ych klient\xF3w mamy system rabatowy."
+    - W tej chwili nie mamy takiej oferty.
+    - "Tylko i wy\u0142\u0105cznie dla powa\u017Cnych klient\xF3w."
+    - 'Dlaczego o to pytasz? '
+    correctAns: "Tak, dla naszych sta\u0142ych klient\xF3w mamy system rabatowy. "
+  - questionInfo: "Jakie s\u0105 koszty dostawy? "
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "Dostawa jest darmowa dla zam\xF3wie\u0144 powy\u017Cej pewnej kwoty. "
+    - "Koszty dostawy to 500 z\u0142. "
+    - "Koszty dostawy zale\u017Cy od miejsca dostawy i ilo\u015Bci zam\xF3wionych
+      produkt\xF3w. "
+    - "Dlaczego chcesz wiedzie\u0107 o kosztach dostawy?"
+    correctAns: "Koszty dostawy zale\u017Cy od miejsca dostawy i ilo\u015Bci zam\xF3wionych
+      produkt\xF3w. "
+  - questionInfo: "Czy mog\u0119 zwr\xF3ci\u0107 produkt, je\u015Bli nie spe\u0142ni
+      moich oczekiwa\u0144? "
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 'Tak, masz 30 dni na zwrot produktu bez podania przyczyny. '
+    - "Przykro mi, ale nie akceptujemy zwrot\xF3w."
+    - "Akceptujemy zwroty, ale klient pokrywa koszty wysy\u0142ki. "
+    - "Dlaczego my\u015Blisz o zwrocie zanim dokona\u0142e\u015B zakupu?"
+    correctAns: 'Tak, masz 30 dni na zwrot produktu bez podania przyczyny. '
+  - questionInfo: "Czy mo\u017Cliwa jest negocjacja warunk\xF3w umowy?"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "Oczywi\u015Bcie, jeste\u015Bmy otwarci na sugestie."
+    - "Nasze warunki s\u0105 niezmienne."
+    - "W pewnych aspektach mo\u017Cemy by\u0107 elastyczni. Jakie ma Pan propozycje? "
+    - "Dlaczego chcia\u0142by\u015B negocjowa\u0107 warunki?"
+    correctAns: "W pewnych aspektach mo\u017Cemy by\u0107 elastyczni. Jakie ma Pan
+      propozycje? "
+  - questionInfo: "Czy mog\u0119 liczy\u0107 na dodatkowe rabaty przy wi\u0119kszym
+      zam\xF3wieniu?"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "Tak, przy zam\xF3wieniach powy\u017Cej pewnej kwoty oferujemy dodatkowe rabaty."
+    - "Zale\u017Cy od wielko\u015Bci zam\xF3wienia, ale mo\u017Cemy om\xF3wi\u0107
+      to indywidualnie. "
+    - "Nie, nasze ceny s\u0105 sta\u0142e niezale\u017Cnie od wielko\u015Bci zam\xF3wienia. "
+    - "Dlaczego spodziewasz si\u0119 dodatkowych rabat\xF3w? "
+    correctAns: "Zale\u017Cy od wielko\u015Bci zam\xF3wienia, ale mo\u017Cemy om\xF3wi\u0107
+      to indywidualnie. "
+  - questionInfo: "Czy maj\u0105 Pa\u0144stwo referencje od innych klient\xF3w? "
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "Tak, ale musz\u0119 najpierw uzyska\u0107 zgod\u0119 od naszych klient\xF3w."
+    - "Nie udost\u0119pniamy takich informacji."
+    - " Nikt nigdy wcze\u015Bniej nie prosi\u0142 nas o referencje! "
+    - "Dlaczego chcia\u0142by\u015B je zobaczy\u0107?"
+    correctAns: "Tak, ale musz\u0119 najpierw uzyska\u0107 zgod\u0119 od naszych
+      klient\xF3w. "
+  - questionInfo: "Jakie s\u0105 metody p\u0142atno\u015Bci, kt\xF3re akceptujecie?"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "P\u0142atno\u015B\u0107 tylko rublami."
+    - Tylko przelew bankowy.
+    - "W wi\u0119kszo\u015Bci przypadk\xF3w akceptujemy p\u0142atno\u015B\u0107 kart\u0105,
+      ale dla wi\u0119kszych zam\xF3wie\u0144 preferujemy przelew. "
+    - "Dlaczego pytasz o metody p\u0142atno\u015Bci?"
+    correctAns: "W wi\u0119kszo\u015Bci przypadk\xF3w akceptujemy p\u0142atno\u015B\u0107
+      kart\u0105, ale dla wi\u0119kszych zam\xF3wie\u0144 preferujemy przelew. "
+  - questionInfo: "Czy oferuj\u0105 Pa\u0144stwo wsparcie wdro\u017Ceniowe?"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Nie, nie oferujemy takiego wsparcia.
+    - "Mo\u017Cemy dostarczy\u0107 wsparcie wdro\u017Ceniowe, ale b\u0119dzie to
+      wi\u0105za\u0142o si\u0119 z dodatkowymi kosztami."
+    - "Sprzedajemy wyka\u0142aczki\u2026 "
+    - "Czemu mia\u0142by\u015B potrzebowa\u0107 wsparcia wdro\u017Ceniowego?"
+    correctAns: "Mo\u017Cemy dostarczy\u0107 wsparcie wdro\u017Ceniowe, ale b\u0119dzie
+      to wi\u0105za\u0142o si\u0119 z dodatkowymi kosztami."
+  - questionInfo: "Czy jest mo\u017Cliwo\u015B\u0107 dostosowania produktu do naszych
+      indywidualnych potrzeb?"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "Tak, jeste\u015Bmy otwarci na modyfikacje zgodnie z Pa\u0144stwa specyfikacj\u0105."
+    - Produkt jest standardowy i nie oferujemy modyfikacji.
+    - "W pewnym zakresie mo\u017Cemy dostosowa\u0107 produkt, ale mo\u017Ce to wp\u0142yn\u0105\u0107
+      na cen\u0119 i czas realizacji. "
+    - "Dlaczego chcia\u0142by\u015B wprowadzi\u0107 modyfikacje? "
+    correctAns: "W pewnym zakresie mo\u017Cemy dostosowa\u0107 produkt, ale mo\u017Ce
+      to wp\u0142yn\u0105\u0107 na cen\u0119 i czas realizacji. "

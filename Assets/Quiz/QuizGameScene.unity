@@ -9673,6 +9673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIHelpers
       objectReference: {fileID: 0}
+    - target: {fileID: 1732808951507650, guid: a9d2de84afb308a4796cc671d3432b4d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4897607310870066, guid: a9d2de84afb308a4796cc671d3432b4d, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -13346,7 +13350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quizGameUI: {fileID: 2070216836}
   quizDataList:
-  - {fileID: 11400000, guid: df6004af69d23cd48a8e77bc6730af97, type: 2}
+  - {fileID: 11400000, guid: 11eb8b4db51d0a04baf9a316ec3947f5, type: 2}
   timeInSeconds: 60
   result: {fileID: 8800672296100547475, guid: fde0603876ed6644281bcb7ec1faae31, type: 3}
   scrollHolder: {fileID: 1157757033}
